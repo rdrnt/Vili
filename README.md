@@ -10,4 +10,4 @@ An attempt at a better music HUD.
 <br>
 ![Screenshot](http://imgur.com/uGFItRY.png)
 <br>
-![Screenshot](http://imgur.com/uGFItRY.png)
+![Screenshot](http://imgur.com/YwhFmkk.png)
