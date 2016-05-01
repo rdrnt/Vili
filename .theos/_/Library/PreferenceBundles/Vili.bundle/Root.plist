@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerCellClass</key>
+			<string>VILCustomHeaderView</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string> </string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.rdurant.vili</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.rdurant.vili/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Visual settings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.rdurant.vili</string>
+			<key>key</key>
+			<string>darkBlur</string>
+			<key>label</key>
+			<string>Dark Blur</string>
+			<key>PostNotification</key>
+			<string>com.rdurant.vili/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.rdurant.vili</string>
+			<key>key</key>
+			<string>colorAlbum</string>
+			<key>label</key>
+			<string>Color from album image</string>
+			<key>PostNotification</key>
+			<string>com.rdurant.vili/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.rdurant.vili</string>
+			<key>key</key>
+			<string>roundArt</string>
+			<key>label</key>
+			<string>Rounded album art</string>
+			<key>PostNotification</key>
+			<string>com.rdurant.vili/settingschanged</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Seconds before removing</string>
+		</dict>
+		<dict>
+			<key>showValue</key>
+			<true/>
+			<key>isContinuous</key>
+			<true/>
+			<key>isSegmented</key>
+			<true/>
+			<key>max</key>
+			<integer>5</integer>
+			<key>min</key>
+			<integer>1</integer>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>2</real>
+			<key>defaults</key>
+			<string>com.rdurant.vili</string>
+			<key>key</key>
+			<string>keepAliveSeconds</string>
+			<key>PostNotification</key>
+			<string>com.rdurant.vili/settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>NOTE: Some changes might take a try or two to apply, but no resprings.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Vili</string>
+</dict>
+</plist>

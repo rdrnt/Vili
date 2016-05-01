@@ -1,0 +1,10 @@
+Package: rdurant
+Name: Vili
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: rdrnt
+Author: rdrnt
+Section: Tweaks
+Version: 0.0.1-457+debug
+Installed-Size: 360
